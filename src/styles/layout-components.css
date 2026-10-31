@@ -1,0 +1,63 @@
+.sidebar-brand {
+  margin-bottom: var(--spacing-lg);
+  padding: var(--spacing-sm) 0;
+}
+
+.sidebar-brand h2 {
+  font-size: 1.25rem;
+  color: var(--primary-color);
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  border: none;
+  background: none;
+  color: var(--text-primary);
+  border-radius: var(--radius-md);
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color var(--transition-speed);
+}
+
+.nav-item:hover {
+  background-color: var(--border-color);
+}
+
+.nav-item.active {
+  background-color: var(--primary-color);
+  color: var(--primary-contrast);
+}
+
+.bottom-nav .nav-item {
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px 0;
+  font-size: 0.75rem;
+}
+
+.bottom-nav .nav-item .nav-icon {
+  font-size: 1.25rem;
+}
+
+.app-header {
+  padding: var(--spacing-md) var(--spacing-lg);
+  background-color: var(--surface-color);
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: var(--spacing-md);
+}
+
+.app-header h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}

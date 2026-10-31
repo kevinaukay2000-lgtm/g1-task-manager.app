@@ -1,0 +1,25 @@
+/* Badge Styles */
+.badge {
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.badge-high { background-color: var(--priority-high); color: white; }
+.badge-medium { background-color: var(--priority-medium); color: black; }
+.badge-low { background-color: var(--priority-low); color: white; }
+.badge-pending { background-color: var(--status-pending); color: black; }
+.badge-completed { background-color: var(--status-completed); color: white; }
+
+/* Task Card Refinements */
+.task-card.overdue {
+  border-left: 4px solid var(--priority-high);
+}
+
+.text-danger {
+  color: var(--priority-high) !important;
+  font-weight: bold;
+}
